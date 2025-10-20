@@ -6,7 +6,7 @@ import java.time.LocalDate;
 /*
  * Performs reverse and XOR operations on strings
  */
-public class Stringifier {
+public non-sealed class Stringifier implements Stringable {
 	char[] key = {'F','E','L','I','X',' ','D','I','E','B','U','S','!'};
 	DayOfWeek day = DayOfWeek.FRIDAY;
 	
@@ -25,5 +25,17 @@ public class Stringifier {
 		}
 		return sb.toString();
 		
+	}
+
+	@Override
+	public String constrain(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String stringfy(String s) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
