@@ -2,7 +2,6 @@ package ie.atu.sw;
 
 public non-sealed class Numberfier implements Numberable 
 {
-
 	char remove = 'a';
 	int THRESHOLD = 42; 
 	

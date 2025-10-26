@@ -1,0 +1,17 @@
+{
+  "name": "Adv_Software_Design - Java 21",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-maven"
+      ]
+    }
+  },
+  "workspaceFolder": "/workspaces/Adv_Software_Design"
+}

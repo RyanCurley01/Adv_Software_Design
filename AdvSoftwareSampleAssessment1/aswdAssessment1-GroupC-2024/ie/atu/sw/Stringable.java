@@ -1,6 +1,6 @@
 package ie.atu.sw;
 
-public sealed interface Stringable permits Stringifier 
+public sealed interface Stringable permits Stringifier, Retainer
 {
 	public abstract String process(String s);
 	public abstract String doXOR(StringBuffer buf);

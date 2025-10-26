@@ -1,6 +1,6 @@
 package ie.atu.sw;
 
-public sealed interface Numberable permits Numberfier
+public sealed interface Numberable permits Numberfier, Retainer
 {
 	public abstract String clip(Object obj, int max);
 	public abstract int mask(int number, int mask);
