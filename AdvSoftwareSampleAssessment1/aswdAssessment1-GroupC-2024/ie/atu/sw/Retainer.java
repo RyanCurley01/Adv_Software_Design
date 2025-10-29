@@ -26,7 +26,7 @@ public final class Retainer implements Stringable, Numberable { //Ideally should
 		}
 	}
 
-	/* Implement Stringable by delegating to the composed Stringable */
+	/* Implements Stringable by delegating to the composed Stringable */
 
 	@Override
 	public String process(String s) {
@@ -48,7 +48,7 @@ public final class Retainer implements Stringable, Numberable { //Ideally should
 		return stringifier.constrain(s);
 	}
 
-	/* Implement Numberable by delegating to the composed Numberable */
+	/* Implements Numberable by delegating to the composed Numberable */
 
 	@Override
 	public String clip(Object obj, int max) {
@@ -82,9 +82,6 @@ public final class Retainer implements Stringable, Numberable { //Ideally should
 	
 	public static void main(String[] args) {
 		Retainer retainer = new Retainer();
-		
-		// Test each Info state
-		System.out.println("Testing Retainer with different Info states:\n");
 		
 		String testValue = "Hello World";
 		
